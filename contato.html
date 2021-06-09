@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Culinário Milly's</title>
+	<link rel="stylesheet" type="text/css" href="contato.css"/>
+    
+</head>
+
+<body>
+    <nav id="menu">
+        <ul id="navbar">
+            <li><a href="index.html">Home </a></li>    
+            <li><a href="recheios.html">Recheios </a></li>    
+            <li><a href="receita1.html">Churros </a></li>   
+            <li><a href="receita2.html">Copinhos </a></li>    
+            <li><a href="receita3.html">Mini Bolo </a></li>    
+            <li><a href="receita4.html">Brigadeiro </a></li>
+            <li><a href="contato.html">Contato </a></li>    
+        </ul>
+    </nav>
+  <section>
+        <form id="formulario" method="post"> 
+            <h1><b>Conte para nós o que achou das receitas</b></h1>
+            <h2><b>Preencha o formulário abaixo e inscreva-se para receber as novidades:</b></h2>
+         
+                    
+            <div class="field">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            
+            <div class="field">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+            </div>
+     
+            <div class="field">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+			<div class="field">
+                <label for="idade">Idade:</label>
+                <input type="idade" id="idade" name="idade" placeholder="Digite sua idade" required>
+            </div> 
+			<div class="field">
+                <label for="estado">Estado:</label>
+                <input type="estado" id="estado" name="estado" placeholder="Digite seu estado" required>
+            </div> 
+            <br>
+    
+            <div>
+                Sexo:<br>
+                <input id="sexoMasculino" type="radio" name="sexo" value="M">
+                <label for="sexoMasculino">Masculino</label>
+
+                <input id="sexoFeminino" type="radio" name="sexo" value="F">
+                <label for="sexoFeminino">Feminino</label>
+            </div>
+            <br>
+    
+            <p>Gostaria também de aprender a fazer recheios?</p>
+            <p>Escolha abaixo as opções de recheios que gostaria de aprender: </p>
+            <div>
+                <input type="checkbox" id="Chocolate" name="Chocolate" checked>
+                <label for="Chocolate">CHOCOLATE</label>
+            </div>
+            <br>
+    
+            <div>
+                <input type="checkbox" id="Doce de Leite" name="Doce de Leite">
+                <label for="Doce de Leite">DOCE DE LEITE</label>
+             </div>
+             <br>
+
+             <div>
+                <input type="checkbox" id="Creme" name="Creme">
+                <label for="Creme">CREME</label>
+             </div>
+             <br>
+            
+             <div>
+                <input type="checkbox" id="Outros Recheios" name="Outros Recheios">
+                <label for="Outros Recheios">OUTROS RECHEIOS</label>
+             </div>
+             <br> 
+
+    
+             <div class="field">
+                <label for="">Envie para nós sua receita pronta para ser publicada em nosso site:</label>
+                <input type="file" name="foto" required>
+            </div>
+            <br>
+    
+            <div>
+                <label for="Ingrediente">Que ingredientes, na sua opinião, poderia ser acrescentado nas receita?</label>
+                <input list="Ingredientes" placeholder="Escreva ou selecione" required>
+                <datalist id="Ingredientes">
+                    <option value="Chocolate"></option>
+                    <option value="Pedaços de coco"></option>
+                    <option value="Amendoim"></option>
+                    <option value="Granulado"></option>
+                    <option value="Essências"></option>
+                     <option value="Outros"></option>   
+                </datalist>
+            </div>    
+            <br>
+    
+            <div>
+                <label for="">Qual a receita que você mais gostou:</label>
+                <select required name="cidade" id="cidade">
+                    <option selected value="">Selecione</option>
+                    <option value="1">Churros Caseiro</option>
+                    <option value="2">Copinho de Churros</option>
+                    <option value="3">Mini Bolo de Churros</option>
+                    <option value="4">Brigadeiro de Churros</option>
+                </select>
+            </div>
+            <br>
+            
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+            <br>
+                
+            <div class="field">
+                <label for="mensagem">Comente ou escreva para nós uma receita que gostaria de ver no nosso site.</label> <br>
+                <textarea name="mensagem" rows="10" cols="45" placeholder="Escreva sua mensagem" required></textarea>
+            </div>
+            <br>
+            
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+</section>
+    <footer id = "copyright">
+        <p>Copyright &copy; 2021 <br> Autora: Emilly Aparecida S. Souza - RGM: 26112183 <br> Turma:Análise e Desenvolvimento de Sistemas - 1K – 2021 (Noturno) Prof° Katia Milani Lara Bossi.</p> 
+    </footer>    
+    
+</body>
+</html>

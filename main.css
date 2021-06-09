@@ -1,0 +1,86 @@
+/* CSS Document */
+body{
+            background-image: url(imagens/cozinha.jpg);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: White;
+            text-align: center;
+        }
+
+        #menu {
+            text-align: center;
+            margin: 5px 0 5px 0;
+            font-size: large;
+        }
+
+        #navbar {
+            display: inline-flex;
+        }
+
+        li {
+            padding: 25px;
+            list-style-type: none;
+        }
+
+        a {
+            padding: 10px  15px 10px 15px;
+            background-color: brown;
+            color: white;
+            border-radius: 25px;
+            text-decoration:none; 
+        }
+
+        #body {
+            background-color: rgb(231, 231, 231);
+            padding: 5px 5px 10px 10px;
+            margin-right: 20px;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        img {
+            border-radius: 50px;
+            padding: 25px;
+        }
+
+        #copyright {
+            margin-top: 200px;
+            color: black;
+            text-align: center;
+			text-shadow: 1px 1px 1px #ffffff;
+			font-size: 12pt;
+			border: 25px;
+			padding: 3px;
+			background-color: rgb(231, 231, 231);
+			margin: 200px -20px -20px 
+        }
+
+audio{
+	position: absolute;
+	top: 850px;
+	left: 530px;
+	
+}
+
+p.rafa{
+	position: absolute;
+	left: 130px;
+	top: 740px;
+	font-weight: bold;
+}
+
+p.maga{
+	position: absolute;
+	left: 550px;
+	top: 740px;
+	font-weight: bold;
+}
+
+p.hugo{
+	position: absolute;
+	left: 950px;
+	top: 740px;
+	font-weight: bold;
+}
+
